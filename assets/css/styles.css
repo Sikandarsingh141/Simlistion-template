@@ -1,0 +1,82 @@
+body{
+  font-family:arial,helvetica,sans-serif;
+}
+
+#promo{
+  margin-top:60px;
+  text-align:center;
+  padding:40px;
+  background-image:url(../../assets/img/bac.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+#promo .jumbotron{
+  border-radius:20px;
+  padding:40px;
+  max-width:800px;
+  margin:0 auto;
+}
+
+@media (max-width:1199px) {
+  #promo .jumbotron{
+    padding:20px;
+  }
+}
+
+@media (max-width:1199px) {
+  #promo{
+    padding:20px;
+  }
+}
+
+.side-section{
+  text-align:center;
+  padding:50px 0 60px;
+}
+
+.side-section h1{
+  margin-bottom:30px;
+}
+
+#welcome p{
+  max-width:800px;
+  font-size:20px;
+  margin:0 auto;
+  color:#666;
+}
+
+#why .item i{
+  font-size:40px;
+  color:rgb(152,168,80);
+}
+
+#why .item{
+  margin:0px;
+  padding-top:30px;
+}
+
+#why .item h2{
+  font-weight:normal;
+  margin-top:1px;
+  margin-bottom:20px;
+  font-size:20px;
+}
+
+.dark-section{
+  background-color:#eff7fb;
+}
+
+#logo{
+  max-height:30px;
+  margin-right:10px;
+  margin-top:3px;
+
+  display:inline-block;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+  background-color:yellow;
+  border-color:transparent;
+}
+
